@@ -26,10 +26,21 @@
             
         }
         .mail {
-            margin-top: 30%;
-            padding: 40px;
-            padding-inline: 30px;
-            margin: 25%;
+            background: #0f4072;
+            margin-top: 20px%;
+            padding: 20px;
+            padding-inline: 20px;
+            margin: 20%;
+            color: rgb(188, 211, 238);
+            
+        }
+        .form {
+            color: rgb(188, 211, 238);
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            background: #0f4072;
+
         }
     </style>
 </head>
@@ -42,7 +53,48 @@
       <a href="contact.html">Contact</a>
       <a href="#"><input type="search"> <input type="submit" value="search"> </a>
         </nav>
+        <form action="" class="form">
+            <fieldset>
+                <legend>Your Details</legend>
+                <p>Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="name"><br><br>
+                Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="email" name="email"><br><br>
+                CNIC Number: &nbsp; 
+                <input type="number" name="number"><br><br>
+                Phone Number: 
+                <input type="number" name="number"><br><br>
+                Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                <input type="text" name="text">
+            </p>
+            </fieldset><br><br>
+            <fieldset>
+                <legend>Your Review</legend>
+                <p>
+                    How did you here about us?
+                    <select name="services" id="">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="youtube">YouTube</option>
+                        <option value="other"> Other </option>
+                    </select><br><br>
+                    Would you visit agian?
+                    <input type="checkbox" name="services" value="yes" checked="checked">yes
+                    <input type="checkbox" name="services" value="no">NO
+                    <input type="checkbox" name="services" value="maybe">Maybe
+
+                </p>
+                <p>
+                    Comments <br>
+                    <textarea name="text" id="" cols="40" rows="05"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="submit">
+                </p>
+            </fieldset>
+        </form>
         <div class="mail">
+          <p><b><u> Contact Us: </u></b><br><br></p>
             <a href="mailto:ghulamhaider11201@gmail.com"><img src="./Gmail logo.png" width="150" height="154" alt="send mail"></a>
             &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a href="https://wa.me/+923422109897"><img src="./whatsapp-logo 2.png" width="150" height="154" alt="whatsapp me"></a>
